@@ -31,8 +31,8 @@ For Fun and Profit
 * Linear Probing
 * Quadratic Probing
 ### Graphs and Trees
-* Depth first
 * Breadth first
+* Depth first
 * Traversal
 ### Algorithms
 * Insertion
