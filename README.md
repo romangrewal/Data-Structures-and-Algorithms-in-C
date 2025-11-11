@@ -33,6 +33,7 @@ For Fun and Profit
 ### Graphs and Trees
 * Depth first
 * Breadth first
+* Traversal
 ### Algorithms
 * Insertion
 * Deletion
