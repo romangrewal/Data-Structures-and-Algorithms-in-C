@@ -2,42 +2,42 @@
 For Fun and Profit
 ## TODO
 ### Linked Lists
-* Singly Linked Lists
-* Doubly Linked Lists
-* Circular Linked Lists
+- [ ] Singly Linked Lists
+- [ ] Doubly Linked Lists
+- [ ] Circular Linked Lists
 ### Arrays
-* Basic
-* Matrices
+- [ ] Basic
+- [ ] Matrices
 ### Stack
-* Array
-* Linked List
-* Dequeue
+- [ ] Array
+- [ ] Linked List
+- [ ] Dequeue
 ### Queue
-* Array
-* Linked List
-* Dequeue
+- [ ] Array
+- [ ] Linked List
+- [ ] Dequeue
 ### Vector
-* Basic
-* Multidimensional
+- [ ] Basic
+- [ ] Multidimensional
 ### Heap
-* Max-Heap
-* Min-Heap
+- [ ] Max-Heap
+- [ ] Min-Heap
 ### Strings
-* C String Operations
+- [ ] C String Operations
 ### Recursion
-* Fibonacci
+- [ ] Fibonacci
 ### Hashing
-* Chaining
-* Linear Probing
-* Quadratic Probing
+- [ ] Chaining
+- [ ] Linear Probing
+- [ ] Quadratic Probing
 ### Graphs and Trees
-* Breadth first
-* Depth first
-* Traversal
+- [ ] Breadth first
+- [ ] Depth first
+- [ ] Traversal
 ### Algorithms
-* Insertion
-* Deletion
-* Sorting
-* Searching
+- [ ] Insertion
+- [ ] Deletion
+- [ ] Sorting
+- [ ] Searching
 ### Build System
-* Make
+- [ ] Make
