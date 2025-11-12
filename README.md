@@ -4,7 +4,6 @@ For Fun and Profit
 ### Build the executable
 ```
 cd <repo_directory/data_structure>
-chmod +x build.sh
 ./build.sh
 ```
 ### Run the executable
@@ -15,7 +14,6 @@ cd <repo_directory/data_structure>
 ### Clean build files
 ```
 cd <repo_directory/data_structure>
-chmod +x build.sh
 ./build.sh clean
 ```
 ## TODO
