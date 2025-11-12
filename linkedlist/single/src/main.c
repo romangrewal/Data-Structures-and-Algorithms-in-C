@@ -9,15 +9,15 @@ int main() {
   print(list);
 
   printf("Linked list after inserting the node:20 at the end \n");
-  insertAtEnd(&list, 20);
+  insertAtTail(&list, 20);
   print(list); 
     
   printf("Linked list after inserting the node:5 at the end \n");
-  insertAtEnd(&list, 5);
+  insertAtTail(&list, 5);
   print(list); 
     
   printf("Linked list after inserting the node:30 at the end \n");
-  insertAtEnd(&list, 30);
+  insertAtTail(&list, 30);
   print(list); 
     
   printf("Linked list after inserting the node:15 at position 2 \n");

@@ -2,6 +2,8 @@
 #define FUNCTIONS_H
 
 #include "linkedlist.h"
+#include <stdlib.h>
+#include <stdio.h>
 
 /* CREATE */
 node* createNode(int);

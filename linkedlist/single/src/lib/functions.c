@@ -18,7 +18,7 @@ void insertAtHead(node** list, int data) {
 }
 
 // Insert node at tail of linked list
-void insertAtEnd(node** list, int data) {
+void insertAtTail(node** list, int data) {
   node* newNode = createNode(data);
   if (*list == NULL) { 
     *list = newNode;
@@ -38,7 +38,7 @@ void insertAtPosition(node** list, int data, int position) {
     insertAtHead(list, data);
     return;
   }
-  node* temp = *head;
+  node* temp = *list;
   for (int i = 0; temp != NULL && i < (position - 1); i++) {
     temp = temp->next;
   }
