@@ -2,7 +2,7 @@
 For Fun and Profit
 ## TODO
 ### Linked Lists
-- :heavy_check_mark: Singly Linked Lists
+:heavy_check_mark: Singly Linked Lists
 - [ ] Doubly Linked Lists
 - [ ] Circular Linked Lists
 ### Arrays
@@ -40,4 +40,4 @@ For Fun and Profit
 - [ ] Sorting
 - [ ] Searching
 ### Build System
-- :heavy_check_mark: Make
+:heavy_check_mark: Make
