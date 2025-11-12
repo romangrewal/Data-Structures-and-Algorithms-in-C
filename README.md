@@ -1,5 +1,23 @@
 # Data-Structures-and-Algorithms-in-C
 For Fun and Profit
+## Build & Run
+### Build the executable
+```
+cd <repo_directory/data_structure>
+chmod +x build.sh
+./build.sh
+```
+### Run the executable
+```
+cd <repo_directory/data_structure>
+./main
+```
+### Clean build files
+```
+cd <repo_directory/data_structure>
+chmod +x build.sh
+./build.sh clean
+```
 ## TODO
 ### Linked Lists
 :heavy_check_mark: Singly Linked Lists
