@@ -57,5 +57,3 @@ chmod +x build.sh
 - [ ] Deletion
 - [ ] Sorting
 - [ ] Searching
-### Build System
-:heavy_check_mark: Make
