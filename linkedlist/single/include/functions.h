@@ -14,9 +14,9 @@ void insertAtTail(node**, int);
 void insertAtPosition(node**, int, int);
 
 /* DELETION */
-//void deleteAtHead();
-//void deleteAtTail();
-//void deleteAtPosition();
+void deleteAtHead(node**);
+void deleteAtTail(node**);
+void deleteAtPosition(node**, int);
 
 /* PRINT */
 void print(node*);

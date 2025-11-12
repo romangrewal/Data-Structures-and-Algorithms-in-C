@@ -39,6 +39,42 @@ int main() {
   printf("Linked list after inserting the node:15 at position 4 \n");
   insertAtPosition(&list, 15, 4);
   print(list);
+  
+  /* DELETION DRIVER */
+  printf("Linked list after deleting the node at position 4: \n");
+  deleteAtPosition(&list, 4);
+  print(list);
 
+  printf("Linked list after deleting the first node: \n");
+  deleteAtHead(&list);
+  print(list);
+
+  printf("Linked list after deleting the first node: \n");
+  deleteAtHead(&list);
+  print(list);
+
+  printf("Linked list after deleting the first node: \n");
+  deleteAtHead(&list);
+  print(list);
+  
+  printf("Linked list after deleting the node at position 2: \n");
+  deleteAtPosition(&list, 2);
+  print(list);
+
+  printf("Linked list after deleting the last node: \n");
+  deleteAtTail(&list);
+  print(list);
+  
+  printf("Linked list after deleting the last node: \n");
+  deleteAtTail(&list);
+  print(list);
+  
+  printf("Linked list after deleting the last node: \n");
+  deleteAtTail(&list);
+  print(list);
+
+  printf("Linked list after deleting the first node: \n");
+  deleteAtHead(&list);
+  print(list);
 
 }
