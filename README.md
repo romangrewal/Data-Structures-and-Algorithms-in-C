@@ -1,4 +1,4 @@
-# Data-Structures-and-Algorithms-in-C
+# Data Structures and Algorithms in C
 For Fun and Profit
 ## Build & Run
 ### Build the executable
