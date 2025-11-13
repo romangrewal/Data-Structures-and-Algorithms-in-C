@@ -18,8 +18,8 @@ cd <repo_directory/data_structure>
 ```
 ## TODO
 ### Linked Lists
-:heavy_check_mark: Singly Linked Lists
-- [ ] Doubly Linked Lists
+- :heavy_check_mark: Singly Linked Lists
+- :heavy_check_mark: Doubly Linked Lists
 - [ ] Circular Linked Lists
 ### Arrays
 - [ ] Basic
