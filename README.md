@@ -20,7 +20,7 @@ cd <repo_directory/data_structure>
 ### Linked Lists
 - :heavy_check_mark: Singly Linked Lists
 - :heavy_check_mark: Doubly Linked Lists
-- :heavy_check_mark: Doubly Circular Linked Lists
+- :heavy_check_mark: Circular Doubly Linked Lists
 ### Arrays
 - [ ] Basic
 - [ ] Matrices
