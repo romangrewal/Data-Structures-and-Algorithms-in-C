@@ -55,3 +55,6 @@ cd <repo_directory/data_structure>
 - [ ] Deletion
 - [ ] Sorting
 - [ ] Searching
+  - [ ] Binary Search
+    - [ ] Array
+    - [ ] Linked List
