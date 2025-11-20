@@ -38,6 +38,7 @@ cd <repo_directory/data_structure>
 ### Heap
 - [ ] Max-Heap
 - [ ] Min-Heap
+- [ ] Priority Queues
 ### Strings
 - [ ] C String Operations
 ### Recursion
@@ -63,6 +64,7 @@ cd <repo_directory/data_structure>
   - All occurence
 - Sorting
   - Quick Sort
+  - Radix Sort
   - Merge Sort
   - Heap Sort
   - Insertion Sort
@@ -71,6 +73,7 @@ cd <repo_directory/data_structure>
   - Shell Sort
   - Bubble Sort
   - Cycle Sort
+  - External Sorting
 - Searching
   - Linear Search
   - Binary Search
@@ -79,3 +82,7 @@ cd <repo_directory/data_structure>
   - Interpolation Search
   - Fibonacci Search
   - Exponential Search
+  - Balanced Trees
+  - Hashing
+  - Radix Searching
+  - External Searching
