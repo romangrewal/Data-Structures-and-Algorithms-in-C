@@ -4,21 +4,18 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-/* CREATE */
-node* createNode(int);
-
 /* INSERTION */
-void insertAtTop(int*, int);
-void insertAtEnd(int*, int);
-void insertAtPosition(int*, int, int);
+void insertAtTop();
+void insertAtEnd();
+void insertAtPosition();
 
 /* DELETION */
-void deleteAtHead(node**);
-void deleteAtTail(node**);
-void deleteAtPosition(node**, int);
+void deleteAtTop();
+void deleteAtEnd();
+void deleteAtPosition();
 
 /* PRINT */
-void printForward(int*);
-void printBackward(int*);
+void printForward();
+void printBackward();
 
 #endif

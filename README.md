@@ -22,7 +22,7 @@ cd <repo_directory/data_structure>
 - :heavy_check_mark: Doubly Linked Lists
 - :heavy_check_mark: Circular Doubly Linked Lists
 ### Arrays
-- [ ] Basic
+- :heavy_check_mark: One-Dimensional Stack Memory Arrays
 - [ ] Matrices
 ### Stack
 - [ ] Array
@@ -51,10 +51,31 @@ cd <repo_directory/data_structure>
 - [ ] Depth first
 - [ ] Traversal
 ### Algorithms
-- [ ] Insertion
-- [ ] Deletion
-- [ ] Sorting
-- [ ] Searching
-  - [ ] Binary Search
-    - [ ] Array
-    - [ ] Linked List
+- Insertion
+  - At beginning
+  - At position
+  - At end
+- Deletion
+  - At beginning
+  - At position
+  - At end
+  - First occurence
+  - All occurence
+- Sorting
+  - Quick Sort
+  - Merge Sort
+  - Heap Sort
+  - Insertion Sort
+  - Tim Sort
+  - Selection Sort
+  - Shell Sort
+  - Bubble Sort
+  - Cycle Sort
+- Searching
+  - Linear Search
+  - Binary Search
+  - Ternary Search
+  - Jump Search
+  - Interpolation Search
+  - Fibonacci Search
+  - Exponential Search
