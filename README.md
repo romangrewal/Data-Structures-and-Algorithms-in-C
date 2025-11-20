@@ -61,7 +61,7 @@ cd <repo_directory/data_structure>
   - At position
   - At end
   - First occurence
-  - All occurence
+  - All occurences
 - Sorting
   - Quick Sort
   - Radix Sort
