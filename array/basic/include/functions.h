@@ -3,19 +3,20 @@
 
 #include <stdlib.h>
 #include <stdio.h>
+#include "array.h"
 
 /* INSERTION */
-void insertAtTop();
-void insertAtEnd();
-void insertAtPosition();
+void insertAtTop(ArrayWrapper, int, int);
+void insertAtEnd(ArrayWrapper, int, int);
+void insertAtPosition(ArrayWrapper, int, int, int);
 
 /* DELETION */
-void deleteAtTop();
-void deleteAtEnd();
-void deleteAtPosition();
+void deleteAtTop(ArrayWrapper, int);
+void deleteAtEnd(ArrayWrapper, int);
+void deleteAtPosition(ArrayWrapper, int, int);
 
 /* PRINT */
-void printForward();
-void printBackward();
+void printForward(ArrayWrapper, int);
+void printBackward(ArrayWrapper, int);
 
 #endif

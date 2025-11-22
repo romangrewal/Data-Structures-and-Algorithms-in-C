@@ -1,20 +1,25 @@
 #include "functions.h"
 
-int main() { 
-  printForward();
-  printBackward();
+int main() {
+  
+  // Rely on order of members to create array structure
+  ArrayWrapper arrayWrapper = {{10, 20, 30, 40, 50, 60, 70}};
+  int count = sizeof(arrayWrapper.data) / sizeof(arrayWrapper.data[0]);
+
+  printForward(arrayWrapper, count);
+  printBackward(arrayWrapper, count);
   printf("\n");
   
-  insertAtTop();
+  insertAtTop(arrayWrapper, count, 100);
   printf("\n");
-  insertAtEnd();
+  insertAtEnd(arrayWrapper, count, 100);
   printf("\n");
-  insertAtPosition();
+  insertAtPosition(arrayWrapper, count, 100, 5);
   printf("\n");
 
-  deleteAtEnd();
+  deleteAtTop(arrayWrapper, count);
   printf("\n");
-  deleteAtPosition();
+  deleteAtEnd(arrayWrapper, count);
   printf("\n");
-  deleteAtTop();
+  deleteAtPosition(arrayWrapper, count, 5);
 }

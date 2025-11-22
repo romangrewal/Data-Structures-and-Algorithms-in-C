@@ -1,93 +1,77 @@
 #include "functions.h"
 
 // Insert element at beginning of array
-void insertAtTop() {
-  int arr[] = {10, 20, 30, 40, 50, 60, 70};
-  int count = sizeof(arr) / sizeof(*arr);
-  int data = 100;
-
+void insertAtTop(ArrayWrapper arrayWrapper, int count, int data) {
   printf("Array before insertion at top:\n");
   for (int i = 0; i < count; i++) {
-    printf("%d ", arr[i]);
+    printf("%d ", arrayWrapper.data[i]);
   }
 
   // Shift elements to the right
   for (int i = count - 1; i >= 0; i--) {
-    arr[i + 1] = arr[i];
+    arrayWrapper.data[i + 1] = arrayWrapper.data[i];
   }
 
   // Insert the new element at the beginning
-  arr[0] = data;
+  arrayWrapper.data[0] = data;
 
   printf("\nArray after insertion at top:\n");
   for (int i = 0; i < count; i++) {
-    printf("%d ", arr[i]);
+    printf("%d ", arrayWrapper.data[i]);
   }
   printf("\n");
 }
 
 // Insert element at end of array
-void insertAtEnd() {
-  int arr[] = {10, 20, 30, 40, 50, 60, 70};
-  int count = sizeof(arr) / sizeof(*arr);
-  int data = 100;
-  
+void insertAtEnd(ArrayWrapper arrayWrapper, int count, int data) {
   printf("Array before insertion at end:\n");
   for (int i = 0; i < count; i++) {
-    printf("%d ", arr[i]);
+    printf("%d ", arrayWrapper.data[i]);
   }
   
   // Inserting element at the end of the array
-  arr[count - 1] = data;
+  arrayWrapper.data[count - 1] = data;
 
   printf("\nArray after insertion at end:\n");
   for (int i = 0; i < count; i++) {
-    printf("%d ", arr[i]);
+    printf("%d ", arrayWrapper.data[i]);
   }
   printf("\n");
 }
 
 // Insert at specific position in linked list
-void insertAtPosition() { 
-  int arr[] = {10, 20, 30, 40, 50, 60, 70};
-  int count = sizeof(arr) / sizeof(*arr);
-  int data = 100;
-  int pos = 5;
-  
+void insertAtPosition(ArrayWrapper arrayWrapper, int count, int data, int pos) { 
   printf("Array before insertion at position %d:\n", pos);
   for (int i = 0; i < count; i++) {
-    printf("%d ", arr[i]);
+    printf("%d ", arrayWrapper.data[i]);
   }
   
   // Shifting elements to the right
   for(int i = count; i >= pos; i--) {
-    arr[i] = arr[i - 1];
+    arrayWrapper.data[i] = arrayWrapper.data[i - 1];
   }
 
   // Insert the new element at index pos - 1
-  arr[pos - 1] = data;
+  arrayWrapper.data[pos - 1] = data;
 
   printf("\nArray after insertion at position %d:\n", pos);
   for (int i = 0; i < count; i++) {
-    printf("%d ", arr[i]);
+    printf("%d ", arrayWrapper.data[i]);
   }
   printf("\n");
 }
 
 // Delete first element of array
-void deleteAtTop() {
-  int arr[] = {10, 20, 30, 40, 50, 60, 70};
-  int count = sizeof(arr) / sizeof(*arr);
-  
+void deleteAtTop(ArrayWrapper arrayWrapper, int count) {
   printf("Array before deletion at top:\n");
   for (int i = 0; i < count; i++) {
-    printf("%d ", arr[i]);
+    printf("%d ", arrayWrapper.data[i]);
   }
 
   // Shift all the elements 1 position to the left
   // starting from second element
   for (int i = 1; i < count; i++) {
-    arr[i - 1] = arr[i];
+    arrayWrapper.data[i - 1] = arrayWrapper.data[i];
   }
 
   // Reduce the array size by 1
@@ -95,19 +79,16 @@ void deleteAtTop() {
 
   printf("\nArray after deletion at top:\n");
   for (int i = 0; i < count; i++) {
-    printf("%d ", arr[i]);
+    printf("%d ", arrayWrapper.data[i]);
   }
   printf("\n");
 }
 
 // Delete last element of array
-void deleteAtEnd() {
-  int arr[] = {10, 20, 30, 40, 50, 60, 70};
-  int count = sizeof(arr) / sizeof(*arr);
-  
+void deleteAtEnd(ArrayWrapper arrayWrapper, int count) {
   printf("Array before deletion at end:\n");
   for (int i = 0; i < count; i++) {
-    printf("%d ", arr[i]);
+    printf("%d ", arrayWrapper.data[i]);
   }
 
   // Reduce the array size by 1
@@ -115,26 +96,22 @@ void deleteAtEnd() {
 
   printf("\nArray after deletion at end:\n");
   for (int i = 0; i < count; i++) {
-    printf("%d ", arr[i]);
+    printf("%d ", arrayWrapper.data[i]);
   }
   printf("\n");
 }
 
 // Delete node at specific position in linked list
-void deleteAtPosition() {
-  int arr[] = {10, 20, 30, 40, 50, 60, 70};
-  int count = sizeof(arr) / sizeof(*arr);
-  int pos = 5;
-  
+void deleteAtPosition(ArrayWrapper arrayWrapper, int count, int pos) {
   printf("Array before deletion at position %d:\n", pos);
   for (int i = 0; i < count; i++) {
-    printf("%d ", arr[i]);
+    printf("%d ", arrayWrapper.data[i]);
   }
 
   // Shift all the elements 1 position to the left
   // starting from position + 1 (i = pos)
   for (int i = pos; i < count; i++) {
-    arr[i - 1] = arr[i];
+    arrayWrapper.data[i - 1] = arrayWrapper.data[i];
   }
 
   // Logical removal of the trailing, now-redundant element
@@ -145,29 +122,25 @@ void deleteAtPosition() {
 
   printf("\nArray after deletion at position %d:\n", pos);
   for (int i = 0; i < count; i++) {
-    printf("%d ", arr[i]);
+    printf("%d ", arrayWrapper.data[i]);
   }
   printf("\n");
 }
 
 // Print array forwards direction
-void printForward() {
-  int arr[] = {10, 20, 30, 40, 50, 60, 70};
-  int count = sizeof(arr) / sizeof(*arr);
+void printForward(ArrayWrapper arrayWrapper, int count) {
   printf("Linear Traversal Forward: ");
   for(int i = 0; i < count; i++) {
-    printf("%d ", arr[i]);
+    printf("%d ", arrayWrapper.data[i]);
   }
   printf("\n");
 }
 
 // Print array backwards direction
-void printBackward() {
-  int arr[] = {10, 20, 30, 40, 50, 60, 70};
-  int count = sizeof(arr) / sizeof(*arr);
+void printBackward(ArrayWrapper arrayWrapper, int count) {
   printf("Reverse Traversal: ");
   for(int i = count - 1; i >= 0; i--) {
-    printf("%d ", arr[i]);
+    printf("%d ", arrayWrapper.data[i]);
   }
   printf("\n");
 }
